@@ -1,0 +1,17 @@
+html,body{height:100%; background: #fff; font-size:14px }
+.container-fluid{ padding:0; overflow:hidden }
+#header{ height:50px; background: #fff; box-shadow:0 0 3px 1px #f1f1f1; z-index:999; position:relative }
+
+#categories{ box-shadow: 0 3px 3px 1px #f1f1f1; padding: 10px }
+#categories h4, #accounts h4{ margin-bottom:10px; border-bottom: 1px dotted #f1f1f1; padding-bottom:10px }
+#categories .alert, #accounts .alert{text-align: center; padding:10px}
+
+#accounts{ background: #fdfdfd; padding: 10px; box-shadow: 0 3px 3px 1px #f1f1f1;}
+
+.no-margin{ margin:0; }
+.no-margin .col, .no-margin .col-2{padding:0}
+
+.snackbar{position:fixed; right:10px; bottom:10px; padding:10px; background: #666; color:#fff; border-radius:5px }
+.snackbar.success{background: #d4edda; color: #155724}
+
+#form{ padding:10px }
